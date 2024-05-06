@@ -5,10 +5,11 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
-// let a = [1,2,3]
-// let b = [4,5,6]
+let a = [1,2,3]
+let b = [4,5,6]
 // let c = [...a,...b]
-// console.log(c)
+let c = a.push(...b)
+console.log(c)
 
 const Header = () => {
   return (
