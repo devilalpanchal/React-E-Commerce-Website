@@ -1,7 +1,9 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.center{
   text-align: center;
 }
 
+.navlink{
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 15px;
+}
