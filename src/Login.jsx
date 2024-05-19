@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -6,6 +7,7 @@ const Login = () => {
       <h1>Login Page</h1>
     </div>
   );
+  <Outlet/>
 };
 
 export default Login;
